@@ -1,0 +1,56 @@
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #a35200;
+  font-family: 'Roboto';
+}
+.para {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #334155;
+}
+.para2 {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #475569;
+  margin: 10px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+}
+.button {
+  font-size: 14px;
+  font-weight: bold;
+  color: #a35200;
+  background-color: #f9d423;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 10px;
+  margin: 10px;
+}
+.image {
+  height: 90px;
+  width: 90px;
+  margin: 10px;
+}
+.text-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+}
